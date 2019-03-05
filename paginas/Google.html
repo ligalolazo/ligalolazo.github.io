@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="author" content="José Trujillo">
+<title> League of Legends </title>
+<link rel="stylesheet" href="../css/estilo.css">	
+</head>
+<body>
+<header>
+<a href="../index.html">
+<img src="../media/league-of-legends-logo-uhd-4k-wallpaper.jpg" width="200" height"80" alt="logo" />
+</a>
+</header>
+<table>
+<tbody>
+<tr>
+<td><h1><a href="../index.html"> Historia </h1></a> </td>
+<td><h1><a href="personajes.html"> Personajes </h1></a></td>
+<td><h1><a href="Modos de juego.html"> Modos de juego </h1></a></td>
+<td><h1><a href="requisitos.html"> Requisitos </h1></a></td>
+<td><h1><a href="Google.html"> Google</h1></a></td>
+</tr>
+</tbody>
+</table>
+<section>
+<h2> Formulario </h2>
+<form class="formulario" method="GET" action="../index.html">
+          <div>
+            <div>
+               <div class="campo">
+                <span>Usuario</span>
+                <input type="text" name="user" placeholder="Nombre de Usuario">
+              </div>
+            
+              <div class="campo">
+                <span>Contraseña</span>
+                <input  type="password"name="password" placeholder="Contraseña">
+              </div>
+            
+              <div class="campo">
+                <span>Nombre</span>
+                <input type="text" name="nombre" placeholder="Nombre">
+              </div>
+              <div class="campo">
+                <span>Telefono</span>
+                <input  type="number"name="telefono" pattern="[A-z]{5}" placeholder="numero telefonico">
+              </div>
+                        <div class="campo">
+                <span>Correo</span>
+                <input type="text" name="Correo" placeholder="Email">
+              </div>
+          <INPUT type="submit" value="Enviar"> <INPUT type="reset">
+ </FORM>
+<p class="letras">
+            <span>G</span>
+            <span>o</span>
+            <span>o</span>
+            <span>g</span>
+            <span>l</span>
+            <span>e</span>
+          </p>
+<script>
+var letras = document.getElementsByClassName('letras')[0]
+
+    for (let index = 0; index < letras.childElementCount; index++) {
+      var color = "#" + ((1 << 24) * Math.random() | 0).toString(16);
+      letras.children[index].style.color = color;
+    }
+</script>
+</section>
+<footer>
+<h1> Sitio de desarrollado por José Andrés Trujillo, 26834026, Programación V </h1>
+</footer>
+</body>
+</html>
