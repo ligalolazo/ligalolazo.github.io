@@ -1,0 +1,75 @@
+html,body {
+	height:100%;
+}
+body {
+}
+h1 {
+color: green;
+padding: 5px 5px;
+margin:auto;
+}
+header {
+    	background:#000000;
+	padding:1px 0px;
+}
+table {
+background:#ccc;
+width:100%;
+
+float:center;
+}
+section {
+padding: 10px 10px;
+background:#778899;	
+}
+h2 {
+color: white;	
+padding: 0px 6px;
+}
+p {
+text-align: justify;
+color: white;
+padding: 5px 5px;
+}
+figcaption {
+color: white;
+padding: 0px 160px;
+}
+figure {
+display: table;
+margin: auto;
+
+}
+footer {
+padding: 10px 0px;
+text-align: center;
+margin-top: 0px;
+background:#ccc;
+width:100%;
+}
+select {
+color: green;
+padding: 5px 5px;
+margin:auto;
+}
+li {
+text-align: justify;
+color: white;
+padding: 5px 5px;
+}
+
+    .letras {
+      letter-spacing: -30px;
+      font-size: 140px;
+      text-align: center !important;
+      font-weight: 500;
+color: green;
+    }
+
+    .letras span {
+      opacity: 0.8;
+      transition: 1s;
+    {
+
+
+
